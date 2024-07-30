@@ -1,0 +1,103 @@
+{
+   "products": {
+       "models": [
+           "Atlas",
+           "Atlas Cross Sport",
+           "Atlas Cross Sport",
+           "Atlas Cross Sport",
+           "ID.4",
+           "Taos",
+           "Arteon",
+           "Atlas Cross Sport",
+           "Atlas Cross Sport",
+           "Atlas Cross Sport",
+           "ID.4",
+           "Taos",
+           "Arteon",
+           "Atlas Cross Sport",
+           "Atlas Cross Sport",
+           "Atlas Cross Sport",
+           "ID.4",
+           "Taos"
+       ],
+       "prices":[
+         "MSRP starting at $37,995"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,000"
+         ,"MSRP starting at $23,995"
+         ,"MSRP starting at $43,010"
+         ,"MSRP starting at $21,435"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,000"
+         ,"MSRP starting at $23,995"
+         ,"MSRP starting at $43,010"
+         ,"MSRP starting at $21,435"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,985"
+         ,"MSRP starting at $36,000"
+         ,"MSRP starting at $23,995"
+       ],
+       "imgs":[
+         "../img/models/car(1).png"
+         ,"../img/models/car(2).png"
+         ,"../img/models/car(3).webp"
+         ,"../img/models/car(4).webp"
+         ,"../img/models/car(5).webp"
+         ,"../img/models/car(7).webp"
+         ,"../img/models/car(6).webp"
+         ,"../img/models/car(8).webp"
+         ,"../img/models/car(10).webp"
+         ,"../img/models/car(9).webp"
+         ,"../img/models/car(12).webp"
+         ,"../img/models/car(11).webp"
+         ,"../img/models/car(13).webp"
+         ,"../img/models/car(14).webp"
+         ,"../img/models/car(16).webp"
+         ,"../img/models/car(15).webp"
+         ,"../img/models/car(18).webp"
+         ,"../img/models/car(17).webp"
+         ,"../img/models/car(13).webp"
+         ,"../img/models/car(14).webp"
+         ,"../img/models/car(5).webp"
+         ,"../img/models/car(7).webp"
+         ,"../img/models/car(5).webp"
+         ,"../img/models/car(7).webp"
+         ,"../img/models/car(13).webp"
+         ,"../img/models/car(14).webp"
+         ,"../img/models/car(6).webp"
+         ,"../img/models/car(8).webp"
+         ,"../img/models/car(1).png"
+         ,"../img/models/car(2).png"
+         ,"../img/models/car(6).webp"
+         ,"../img/models/car(8).webp"
+         ,"../img/models/car(6).webp"
+         ,"../img/models/car(8).webp"
+         ,"../img/models/car(1).png"
+         ,"../img/models/car(2).png"
+       ],
+       "description":[
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect.",
+         "City dweller or suburbanite? Both are just perfect."
+       ]
+
+   }
+}
+

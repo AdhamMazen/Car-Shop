@@ -1,0 +1,265 @@
+:root{
+    --mainBackgroundColor:#123;
+    --mainBorderRadius:8px;
+    --transition-duration: .5s;
+    
+ }
+ 
+ *{
+     padding: 0px;
+     margin: 0px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ body{
+    background: #001;
+    display: flex;
+    /* overflow: hidden; */
+    height: 100vh;
+    padding-left: 80px; 
+ }
+ 
+ 
+ 
+ .menu{
+    width: 60px;
+    background-color: var(--mainBackgroundColor);
+    padding: 20px;
+    overflow: hidden;
+    transition: var(--transition-duration);
+    position: fixed; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+ }
+ 
+ .menu:hover{
+     width: 260px;
+ 
+ }
+ 
+ .menu ul {
+     text-decoration: none;
+     list-style: none;
+     height: 95%;
+     position: relative;
+ }
+ .menu .profile{
+     display: flex;
+     align-items: center;
+     gap:30px;
+   
+ }
+ .menu .profile h2{
+     width: 10px;
+ }
+ .img-box{
+     height: 50px;
+     width: 50px;
+     overflow: hidden;
+     border-radius: 50%;
+     border: 3px solid white;
+     flex-shrink: 0;
+ }
+ .img-box img{
+     width: 100%;
+     flex-shrink: 0;
+     
+ }
+ .menu ul li a{
+     display: block;
+     text-decoration: none;
+  
+     margin: 10px 0px;
+     padding: 10px;
+     gap: 40px;
+     display: flex;
+     align-items: center;
+     border-radius:var(--mainBorderRadius) ;
+     transition: var(--transition-duration);
+ }
+ 
+ .menu ul li a:hover{
+     background-color: #ffffff55;
+ }
+ .log-out{
+     position: absolute;
+     
+     width: 100%;
+ 
+ }
+ .menu ul .log-out a{
+     background: red;
+     overflow: hidden;
+ }
+ 
+ .menu ul li a i{
+     font-size: 30px;
+ }
+ 
+ .fas{ 
+    transition: var(--transition-duration);
+ }
+ .menu ul li:hover .fa-user-group,.menu ul li:hover .fa-home{ 
+    scale: 1.2;
+    
+ }
+ .menu ul li:hover .fa-cart-shopping{ 
+    transform:translateX(20px) ;
+ }
+ .menu ul li:hover .fa-star{ 
+    transform:rotate(360deg) ;
+    color: yellow;
+ }
+
+ .active{
+    transform:rotateY(360deg) ;
+    color: yellow;
+ }
+ .menu ul li:hover .fa-cog{ 
+    transform:rotate(360deg);
+        
+
+ }
+
+ .setting-box{
+    height: 200px;
+     width: 300px;
+    position: absolute; 
+    background-color:black;
+    margin:30vh 30vw;
+    border-radius: var(--mainBorderRadius);
+    transform: scale(0);
+    transition: var(--transition-duration);
+    text-align: center;
+    z-index: 1;
+ }
+
+ .fa-x{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 45px;
+     height: 45px;
+}
+.setting-box ul{
+    list-style: none;
+}
+
+.setting-box ul li:nth-child(4) ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.setting-box ul li:nth-child(4) ul li{
+    background:white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+ .content{
+    width: calc(100% - 60px); 
+    margin-left: 60px; 
+    transition: var(--transition-duration);
+ }
+ .menu:hover ~ .content {
+    width: calc(100% - 260px); 
+    margin-left: 260px; 
+}
+
+ 
+ .title-info{
+     background-color: var(--mainBackgroundColor);
+     height: 50px;
+     border-radius: var(--mainBorderRadius);
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 10px 0;
+     font-size: 40px;
+ }
+
+.fa-car-side{
+    font-size: 30px;
+    transition:2s ease-out;
+    position: relative;
+    
+    
+    /* transform: translateX(-1095px); */
+}
+.title-info:hover .fa-car-side{
+    transform: translateX(2000px);
+    
+}
+ 
+ .data-info{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+ 
+ .box{
+     display: flex;
+    position: relative;
+     flex-direction: column;
+     background-color: var(--mainBackgroundColor);
+     width: 390px;
+     /* flex-grow: 1; */
+     border-radius: var(--mainBorderRadius);
+     height: 400px;
+     transition: var(--transition-duration);
+     font-size: 20px;
+ }
+
+
+ .box div:first-child{
+    background-color: aliceblue;
+    width: 100%;
+    height:200px;
+    border-radius: var(--mainBorderRadius);
+ 
+ }
+ .box img{
+    background-color: aliceblue;
+    width: auto;
+    height: 200px
+ }
+ .box img:nth-child(2){
+    display: none;
+}
+
+.box:hover img:nth-child(2){
+    display: block;
+}
+
+.box:hover img:nth-child(1){
+    display: none;
+}
+ .box div:last-child{
+  margin:25px 20px;
+ 
+ }
+
+.box div:last-child a{
+    font-size: 20px;
+    text-decoration: none;  
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: var(--mainBorderRadius);
+    margin-left: -20px;
+
+
+}
+
